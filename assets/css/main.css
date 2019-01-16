@@ -1313,15 +1313,15 @@ input, select, textarea {
 		.poptrox-popup .caption {
 			position: absolute;
 			bottom: 0;
-			left: 0;
+			left: 10%;
 			background: #154360;
-			width: 100%;
-			height: 10em;
-			line-height: 2.8em;
+			width: 80%;
+			height: 40%;
+			line-height: 1.5em;
 			text-align: center;
 			cursor: default;
 			z-index: 1;
-			font-size: 0.9em;
+			font-size: 15pt;
 		}
 
 		.poptrox-popup .nav-next,
@@ -2344,6 +2344,85 @@ input, select, textarea {
 				}
 
 		}
+
+		#header22 {
+			position: fixed;
+			z-index: 10000;
+			left: 0;
+			top: 0;
+			width: 100%;
+			background: rgba(255, 255, 255, 0.95);
+			height: 1em;
+			line-height: 1em;
+			box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+		}
+	
+			#header2 h1 {
+				position: absolute;
+				left: 1em;
+				top: 0;
+				height: 1em;
+				line-height: 1em;
+				cursor: default;
+			}
+	
+				#header2 h1 a {
+					font-size: 1.25em;
+				}
+	
+			#header2 nav {
+				position: absolute;
+				right: 0.5em;
+				top: 0;
+				height: 1em;
+				line-height: 1em;
+			}
+	
+				#header2 nav ul {
+					margin: 0;
+				}
+	
+					#header2 nav ul li {
+						display: inline-block;
+						margin-left: 0.5em;
+						font-size: 0.9em;
+					}
+	
+						#header2 nav ul li a {
+							display: block;
+							color: inherit;
+							text-decoration: none;
+							height: 1em;
+							line-height: 1em;
+							padding: 0 0.5em 0 0.5em;
+							outline: 0;
+						}
+	
+			@media screen and (max-width: 736px) {
+	
+				#header2 {
+					height: 2.5em;
+					line-height: 2.5em;
+				}
+	
+					#header2 h1 {
+						text-align: center;
+						position: relative;
+						left: 0;
+						top: 0;
+						height: 2.5em;
+						line-height: 2.5em;
+					}
+	
+						#header2 h1 a {
+							font-size: 1em;
+						}
+	
+					#header2 nav {
+						display: none;
+					}
+	
+			}
 
 	body {
 		padding-top: 3em;
