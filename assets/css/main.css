@@ -727,7 +727,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #98c593;
+		background-color: #164360;
 		border: 0;
 		border-radius: 3.5em;
 		color: #ffffff;
@@ -784,7 +784,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #a8cea4;
+			background-color: #486A80;
 		}
 
 		input[type="button"]:active,
@@ -1013,14 +1013,14 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-			width: 100%;
+			width: 50%;
 			height: 100%;
 			background: url("images/overlay.png");
 		}
 
 		.image img {
 			display: block;
-			width: 100%;
+			width: 50%;
 		}
 
 		.image.featured {
@@ -1280,7 +1280,9 @@ input, select, textarea {
 /* Poptrox */
 
 	.poptrox-popup {
+		border-radius: 30px;
 		-moz-box-sizing: content-box;
+		padding-top: 30px;
 		-webkit-box-sizing: content-box;
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
@@ -2358,6 +2360,11 @@ input, select, textarea {
 				}
 
 		}
+.scrool{
+	overflow: scroll;
+	    height: 200px;
+
+}
 
 		#header22 {
 			position: fixed;
@@ -2844,3 +2851,353 @@ input, select, textarea {
 			}
 
 		}
+		
+
+		@media screen and (min-width: 2500px) and (max-width: 5000px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 2500px) and (max-width: 5000px) {
+			.gallery_2{
+			  margin-top: -155px !important;
+			}
+			.gallery_3{
+				margin-top: -169px !important;
+			}
+			  .gallery_4{
+				margin-top: -170px !important;
+			}
+		  }	
+			
+		@media screen and (min-width: 1281px) and (max-width: 2499px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 1281px) and (max-width: 2499px) {
+			.gallery_2{
+			  margin-top: -186px !important;
+			}
+			.gallery_3{
+				margin-top: -205px !important;
+			}
+			  .gallery_4{
+				margin-top: -205px !important;
+			}
+		  }
+		  @media screen and (min-width: 842px) and (max-width: 1281px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 842px) and (max-width: 1281px) {
+			.gallery_2{
+			  margin-top: -135px !important;
+			}
+			.gallery_3{
+				margin-top: -147px !important;
+			  }
+			  .gallery_4{
+				margin-top: -150px !important;
+			  }
+		  }
+
+		@media screen and (min-width: 825px) and (max-width: 842px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 825px) and (max-width: 842px) {
+			.gallery_2{
+			  margin-top: -133px !important;
+			}
+			.gallery_3{
+				margin-top: -143px !important;
+			  }
+			  .gallery_4{
+				margin-top: -143px !important;
+			  }
+		  }
+
+
+		  @media screen and (min-width: 800px) and (max-width: 825px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 800px) and (max-width: 825px) {
+			.gallery_2{
+			  margin-top: -125px !important;
+			}
+			.gallery_3{
+				margin-top: -135px !important;
+			  }
+			  .gallery_4{
+				margin-top: -135px !important;
+			  }
+		  }
+
+		  @media screen and (min-width: 785px) and (max-width: 800px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 785px) and (max-width: 800px) {
+			.gallery_2{
+			  margin-top: -125px !important;
+			}
+			.gallery_3{
+				margin-top: -135px !important;
+			  }
+			  .gallery_4{
+				margin-top: -135px !important;
+			  }
+		  }
+
+		  @media screen and (min-width: 770px) and (max-width: 785px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 770px) and (max-width: 785px) {
+			.gallery_2{
+			  margin-top: -124px !important;
+			}
+			.gallery_3{
+				margin-top: -135px !important;
+			  }
+			  .gallery_4{
+				margin-top: -135px !important;
+			  }
+		  }
+
+		  @media screen and (min-width: 750px) and (max-width: 770px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 750px) and (max-width: 770px) {
+			.gallery_2{
+			  margin-top: -123px !important;
+			}
+			.gallery_3{
+				margin-top: -133px !important;
+			  }
+			  .gallery_4{
+				margin-top: -133px !important;
+			  }
+		  }
+
+		  @media screen and (min-width: 730px) and (max-width: 750px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 730px) and (max-width: 750px) {
+			.gallery_2{
+			  margin-top: -114px !important;
+			}
+			.gallery_3{
+				margin-top: -124px !important;
+			  }
+			  .gallery_4{
+				margin-top: -124px !important;
+			  }
+		  }
+
+		  @media screen and (min-width: 715px) and (max-width: 730px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 715px) and (max-width: 730px) {
+			.gallery_2{
+			  margin-top: -110px !important;
+			}
+			.gallery_3{
+				margin-top: -120px !important;
+			  }
+			  .gallery_4{
+				margin-top: -120px !important;
+			  }
+		  }
+
+		  @media screen and (min-width: 700px) and (max-width: 715px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 700px) and (max-width: 715px) {
+			.gallery_2{
+			  margin-top: -108px !important;
+			}
+			.gallery_3{
+				margin-top: -118px !important;
+			  }
+			  .gallery_4{
+				margin-top: -118px !important;
+			  }
+		  }
+
+		  @media screen and (min-width: 680px) and (max-width: 700px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 680px) and (max-width: 700px) {
+			.gallery_2{
+			  margin-top: -102px !important;
+			}
+			.gallery_3{
+				margin-top: -112px !important;
+			  }
+			  .gallery_4{
+				margin-top: -112px !important;
+			  }
+		  }
+
+
+		  @media screen and (min-width: 680px) and (max-width: 700px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 680px) and (max-width: 700px) {
+			.gallery_2{
+			  margin-top: -102px !important;
+			}
+			.gallery_3{
+				margin-top: -112px !important;
+			  }
+			  .gallery_4{
+				margin-top: -112px !important;
+			  }
+		  }
+
+		  @media screen and (min-width: 670px) and (max-width: 680px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 670px) and (max-width: 680px) {
+			.gallery_2{
+			  margin-top: -102px !important;
+			}
+			.gallery_3{
+				margin-top: -112px !important;
+			  }
+			  .gallery_4{
+				margin-top: -112px !important;
+			  }
+		  }
+
+		  @media screen and (min-width: 640px) and (max-width: 670px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 640px) and (max-width: 670px) {
+			.gallery_2{
+			  margin-top: -102px !important;
+			}
+			.gallery_3{
+				margin-top: -112px !important;
+			  }
+			  .gallery_4{
+				margin-top: -112px !important;
+			  }
+		  }
+
+			@media screen and (min-width: 630px) and (max-width: 640px) {
+			.image fit{
+				width: 400px !important;
+			}
+		  }
+		  @media screen and (min-width: 630px) and (max-width: 640px) {
+			.gallery_2{
+			  margin-top: -102px !important;
+			}
+			.gallery_3{
+				margin-top: -112px !important;
+			  }
+			  .gallery_4{
+				margin-top: -112px !important;
+			  }
+		  }
+
+		  @media screen and (min-width: 580px) and (max-width: 630px) {
+			.image fit{
+				width: 300px !important;
+			}
+		  }
+		  @media screen and (min-width: 580px) and (max-width: 630px) {
+			.gallery_2{
+			  margin-top: -95px !important;
+			}
+			.gallery_3{
+				margin-top: -104px !important;
+			  }
+			  .gallery_4{
+				margin-top: -104px !important;
+			  }
+		  }
+
+
+		  @media screen and (min-width: 481px) and (max-width: 580px) {
+			.image fit{
+				width: 300px !important;
+			}
+		  }
+		  @media screen and (min-width: 481px) and (max-width: 580px) {
+			.gallery_2{
+			  margin-top: -87px !important;
+			}
+			.gallery_3{
+				margin-top: -93px !important;
+			}
+			  .gallery_4{
+				margin-top: -93px !important;
+			}
+		  }
+
+		  @media screen and (min-width: 300px) and (max-width: 480px) {
+			.image fit{
+				width: 50px !important;
+			}
+		  }
+		  @media screen and (min-width: 300px) and (max-width: 480px) {
+			.gallery_2{
+			  margin-top: -150px !important;
+			}
+			.gallery_3{
+				margin-top: -164px !important;
+			}
+			  .gallery_4{
+				margin-top: -151px !important;
+			}
+		  }
+
+
+
+
+
+/* The emerging W3C standard
+   that is currently Firefox-only */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #164360 rgba(255, 255, 255, 0.95);
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.95);
+}
+*::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #33ccff 0%, #ff9999 100%);
+  border-radius: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.95);
+}
