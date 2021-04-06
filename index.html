@@ -265,7 +265,15 @@
 														<source src="images/Gazebo Simulation.mp4" type=video/mp4>
 												</video> <br />
 												Another project I undertook during my graduate career was a simulation of an agricultural robot. I found this class to be 
-												one of my favorites as I am definitely a visual learner! 
+												one of my favorites as I am definitely a visual learner! I learned about basic kinematic behavior of different vehicles 
+												and how ideal movement varies when introducing real world characteristics such as slip and skid. This laid the foundation for 
+												my understanding of pure pursuit control and robot dynamics. In this final project, I utilized my newfound knowledge to 
+												have an agricultural robot autonomously navigate a nursery of trees and use a LiDAR (simulated) sensor to identify and record the radius of 
+												the trees and their position, so that we can know when they are ready to "harvest." I had to use path planning with different 
+												headland maneuver techniques to traverse the field. I utilized a median filter to correct the noise in the simulated LiDAR sensor 
+												to retrieve more accurate data. Finally, I also simulated this in ROS with my partner as an added bonus to visualize the 
+												entire program in 3D. 
+
 										</div></header2>
 									</a>
 								</article>
@@ -274,7 +282,14 @@
 									<a href="images/resize/ThesisProj.jpeg" style="width: 164%" class="image fit"><img src="images/thumbs/thesis_proj.jpg" alt="" />
 										<header2>
 										<div class="" style="height: 261px; width: 95%;overflow-y: scroll">
-												My Thesis Project for my Master's Degree concerns developing a controller.
+												My Thesis Project for my Master's Degree concerns developing a controller for the directed energy deposition (DED) process, similar to 
+												laser sintering or 3-D printing metal. There are discrepancies in the 3-D metal printing process due to heat accumulation over long 
+												periods of deposition and irregularities in how the laser hits the powder cone. I wanted to develop a height monitoring system that can 
+												evaluate in real time these errors during the deposition and create a controller that is able to alleviate the problems during the additive 
+												manufacturing process. I began with reading more about computer vision and how to analyze the height without physically measuring it as that 
+												would not be feasible. I ended up developing a way to translate pixels to an estimate height. Using this, I am able to control a powder splitting 
+												system that would control the powder flow. By controlling the powder, I can change the height of the deposited material, alleviating any build errors.
+												I utilized the Ziegler-Nichols method in tuning my final PID controller to stabilize the error correction process. 
 	
 										</div></header2>
 									</a>
